@@ -2,7 +2,7 @@ document.getElementById("password-form").addEventListener("submit", function (ev
     event.preventDefault();
 
     var password = document.getElementById("password").value;
-    if (password === "amosandeli") {
+    if (password === "212") {
         document.getElementById("message").style.display = "block";
         document.getElementById("message").innerHTML = "Welcome spies! Find the secret code in the storage unit!";
     } else {
