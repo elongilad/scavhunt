@@ -4,9 +4,9 @@ document.getElementById("password-form").addEventListener("submit", function (ev
     var password = document.getElementById("password").value;
     if (password === "212") {
         document.getElementById("message").style.display = "block";
-        document.getElementById("message").innerHTML = "Welcome spies! Find the secret code in the storage unit!";
+        document.getElementById("message").innerHTML = "יָפֶה מְאֹד! הַמַּפְתֵּחַ נִמְצָא קָבוּר בָּאֲדָמָה מִתַּחַת לְכַדּוּר יָם לְיַד הָאוֹטוֹ שֶׁל אַבָּא וְאִמָּא שֶׁל עָמוֹס וְעִילַי!";
     } else {
         document.getElementById("message").style.display = "block";
-        document.getElementById("message").innerHTML = "Incorrect password. Please try again.";
+        document.getElementById("message").innerHTML = "שְׁגִיאָה. נַסֵּה שֵׁנִית.";
     }
 });
